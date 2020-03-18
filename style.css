@@ -342,7 +342,7 @@ html {
 /* resume section*/
 .my-Resume{
 	background-color: var(--clr-dark);
-	background-image: url(img3.png);
+	background-image: url(img3.jpg);
 	background-size: cover;
 	background-blend-mode: multiply;
 	color: var(--clr-light);
