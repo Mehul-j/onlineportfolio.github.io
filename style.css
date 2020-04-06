@@ -601,27 +601,29 @@ html {
   align-items: center;
   border-radius: 15px;
   box-shadow: -20px 20px 10px rgba(0,0,0,.5);
+  
+
+ 
   }
-
-.footer a { 
-    color: inherit;
-    text-decoration: none;
-}
-
+ 
 .footer__link {
-	color: var(--clr-white);
+
+  color: var(--clr-white);
     font-weight: var(--fw-bold);
 }
 
 .footer__link:hover,
 .social-list__link:hover {
     opacity: .9;
+   ;
 }
 
 .footer__link:hover {
     text-decoration: underline;
-	color: var(--clr-accent);
+     color: var(--clr-accent);
 }
+
+
 .footer ul
 {
   position: absolute;
@@ -714,6 +716,8 @@ ul li:hover:nth-child(2) a:after
 {
   background: #0077B5;
 }
+
+
 ul li:hover:nth-child(3) a
 {
   background: #55acee;
@@ -741,9 +745,8 @@ ul li:hover:nth-child(4) a:after
   background: #e4405f;
 }
 
-
-
 /*individual portfolio item styles */
+
  .portfolio-item-individual{
  	max-width: 600px;
  	margin-left: auto;
